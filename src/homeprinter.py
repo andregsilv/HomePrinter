@@ -59,7 +59,7 @@ class HomePrinter():
         
         if (self.current_x != x1 or self.current_y != y1):
             self.actz.pen_up()
-            self.move(x1 - self.current_x, y1 - self.current_y)
+            self.move(x1 - self.current_x, y1 - self.current_y),
         self.actz.pen_down()
         self.move(deltax, deltay)
     
